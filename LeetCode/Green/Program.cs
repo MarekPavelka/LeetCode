@@ -45,7 +45,7 @@ namespace Green
                     }
                 }
             }
-            throw new Exception("bad input");
+            throw new ArgumentException("No 2 numbers from input[] sum up to target => bad input?");
         }
     }
 }
