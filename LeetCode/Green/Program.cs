@@ -18,8 +18,6 @@ namespace Green
             Console.WriteLine($"{actualDateTime.Minute}");
             Console.WriteLine($"{actualDateTime.Millisecond}");
             Console.WriteLine($"{actualDateTime.Date}");
-            
-
             Console.ReadLine();
         }
     }

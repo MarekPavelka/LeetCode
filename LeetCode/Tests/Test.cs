@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentAssertions;
 using Xunit;
-using TwoSum;
+using ;
 
 namespace Tests
 {
