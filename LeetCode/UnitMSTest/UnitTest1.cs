@@ -8,7 +8,7 @@ namespace UnitMSTest
     {
         [TestMethod]
         public void TestMethod1()
-        {
+        { 
         }
     }
 }
