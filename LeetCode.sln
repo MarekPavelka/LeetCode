@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Green", "Green\Green.csproj", "{2AF11C49-93CC-40BA-B234-7FBCF856E6A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitMSTests", "UnitMSTest\UnitMSTests.csproj", "{CA744681-B53D-477D-9935-FF3EBD6F7575}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenLeetKata", "UnitMSTest\GreenLeetKata.csproj", "{CA744681-B53D-477D-9935-FF3EBD6F7575}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,13 +10,6 @@ namespace Green
     {
         static void Main(string[] args)
         {
-            LongestCommonPrefix.Solution();
-            //ReverseNumber.Solution();
-            //Palindrome.Solution();
-            //TwoSum.Solution();
-            //MergeTwoSortedLists.Solution();
-
-            Console.ReadLine();
         }
     }
 }
