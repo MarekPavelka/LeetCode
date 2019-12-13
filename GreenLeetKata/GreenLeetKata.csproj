@@ -65,6 +65,8 @@
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="PalindromeNumber.cs" />
     <Compile Include="RomanToInteger.cs" />
+    <Compile Include="MergeTwoSortedLists.cs" />
+    <Compile Include="RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
