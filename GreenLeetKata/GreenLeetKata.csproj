@@ -67,6 +67,15 @@
     <Compile Include="RomanToInteger.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
     <Compile Include="RemoveDuplicatesFromSortedArray.cs" />
+    <Compile Include="RemoveElement.cs" />
+    <Compile Include="ImplementstrStr.cs" />
+    <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="CountAndSay.cs" />
+    <Compile Include="MaximumSubarray.cs" />
+    <Compile Include="LengthOfLastWord.cs" />
+    <Compile Include="PlusOne.cs" />
+    <Compile Include="AddBinary.cs" />
+    <Compile Include="SqrtX.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
