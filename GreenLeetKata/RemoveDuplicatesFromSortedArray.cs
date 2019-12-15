@@ -19,6 +19,21 @@ namespace UnitMSTest
     [TestClass]
     public class RemoveDuplicatesFromSortedArray
     {
+        public int RemoveDup(int[] nums)
+        {
+            if (nums.Length == 0) return 0;
+            var orderedIdx = 0;
+            for (int nextIdx = 1; nextIdx < nums.Length; nextIdx++)
+            {
+                if (nums[orderedIdx] != nums[nextIdx])
+                {
+                    orderedIdx++;
+                    nums[orderedIdx] = nums[nextIdx];
+                }
+            }
+            return orderedIdx + 1;
+        }
+
         public int RemoveDuplicates(int[] nums)
         {
             if (nums.Length == 0) return 0;
@@ -51,12 +66,12 @@ namespace UnitMSTest
             var input3 = new int[] {1, 2, 3, 4};
             var input4 = new int[] {0, 0, 1, 3, 3, 8};
 
-            var result05 = RemoveDuplicates(input05);
-            var result0 = RemoveDuplicates(input0);
-            var result1 = RemoveDuplicates(input1);
-            var result2 = RemoveDuplicates(input2);
-            var result3 = RemoveDuplicates(input3);
-            var result4 = RemoveDuplicates(input4);
+            var result05 = RemoveDup(input05);
+            var result0 = RemoveDup(input0);
+            var result1 = RemoveDup(input1);
+            var result2 = RemoveDup(input2);
+            var result3 = RemoveDup(input3);
+            var result4 = RemoveDup(input4);
 
             result05.Should().Be(4);
             result0.Should().Be(3);
