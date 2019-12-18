@@ -28,13 +28,13 @@ namespace UnitMSTest
         public int MySqrt(int x)
         {
             int leftNumber = 0;
-            int rightNumber = x / 2 + 1;
+            int rightNumber = x / 2;
             while (leftNumber <= rightNumber)
             {
                 int mid = leftNumber + (rightNumber - leftNumber) / 2;
                 int result = mid * mid;
                 if (result == x) return mid;
-                else if (result > x)rightNumber = mid - 1;
+                else if (result > x) rightNumber = mid - 1;
                 else leftNumber = mid + 1;
             }
             return rightNumber;
