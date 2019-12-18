@@ -45,7 +45,6 @@ namespace UnitMSTest
             return currentSay.ToString();
         }
 
-
         [TestMethod]
         public void WorksCorrectly()
         {
