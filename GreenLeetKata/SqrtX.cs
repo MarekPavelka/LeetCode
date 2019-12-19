@@ -36,6 +36,7 @@ namespace UnitMSTest
                 if (result == x) return mid;
                 else if (result > x) rightNumber = mid - 1;
                 else leftNumber = mid + 1;
+
             }
             return rightNumber;
         }

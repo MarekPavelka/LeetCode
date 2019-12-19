@@ -31,7 +31,6 @@ namespace UnitMSTest
             return haystack.IndexOf(needle);
         }
 
-
         [TestMethod]
         public void TestMethod1()
         {

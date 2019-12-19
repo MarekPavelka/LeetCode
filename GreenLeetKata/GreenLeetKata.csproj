@@ -80,6 +80,8 @@
     <Compile Include="RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="ClimbingStaris.cs" />
     <Compile Include="PascalsTriangle.cs" />
+    <Compile Include="136SingleNumber.cs" />
+    <Compile Include="125ValidPalindrome.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
