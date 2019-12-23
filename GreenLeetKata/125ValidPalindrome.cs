@@ -45,6 +45,8 @@ namespace UnitMSTest
             return true;
         }
 
+
+        //not working
         public bool IsPalindrome2(string s)
         {
             if (s == String.Empty) return true;
@@ -72,13 +74,13 @@ namespace UnitMSTest
 
 
         [TestMethod]
-        public void TestMethod1()
+        public void WorksCorrectly()
         {
             var input1 = "A man, a plan, a canal: Panama";
             var input2 = "race a car";
 
-            var result1 = IsPalindrome2(input1);
-            var result2 = IsPalindrome2(input2);
+            var result1 = IsPalindrome(input1);
+            var result2 = IsPalindrome(input2);
 
             result1.Should().Be(true);
             result2.Should().Be(false);

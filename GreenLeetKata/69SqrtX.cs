@@ -27,18 +27,18 @@ namespace UnitMSTest
     {
         public int MySqrt(int x)
         {
-            int leftNumber = 0;
-            int rightNumber = x / 2;
+            long leftNumber = 0;
+            long rightNumber = x / 2 + 1;
             while (leftNumber <= rightNumber)
             {
-                int mid = leftNumber + (rightNumber - leftNumber) / 2;
-                int result = mid * mid;
-                if (result == x) return mid;
+                long mid = leftNumber + (rightNumber - leftNumber) / 2;
+                long result = mid * mid;
+                if (result == x) return Convert.ToInt32(mid);
                 else if (result > x) rightNumber = mid - 1;
                 else leftNumber = mid + 1;
 
             }
-            return rightNumber;
+            return Convert.ToInt32(rightNumber);
         }
 
 

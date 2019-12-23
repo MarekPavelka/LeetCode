@@ -75,10 +75,10 @@
     <Compile Include="LengthOfLastWord.cs" />
     <Compile Include="PlusOne.cs" />
     <Compile Include="AddBinary.cs" />
-    <Compile Include="SqrtX.cs" />
+    <Compile Include="69SqrtX.cs" />
     <Compile Include="MergeSortedArray.cs" />
     <Compile Include="RemoveDuplicatesFromSortedList.cs" />
-    <Compile Include="ClimbingStaris.cs" />
+    <Compile Include="70ClimbingStairs.cs" />
     <Compile Include="PascalsTriangle.cs" />
     <Compile Include="136SingleNumber.cs" />
     <Compile Include="125ValidPalindrome.cs" />
