@@ -27,6 +27,7 @@ namespace UnitMSTest
         public IList<IList<int>> Generate(int numRows)
         {
 
+            return new List<IList<int>>();
         }
 
         [TestMethod]

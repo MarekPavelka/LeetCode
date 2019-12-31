@@ -1,4 +1,5 @@
 ﻿using System;
+using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitMSTest
@@ -23,15 +24,23 @@ namespace UnitMSTest
     {
         public int SingleNum(int[] nums)
         {
-
-
-            return 0;
+            var result = 0;
+            foreach (var number in nums)
+            {
+                result = result ^ number;
+            }
+            return result;
         }
 
 
+
         [TestMethod]
-        public void TestMethod1()
+        public void WorksCorrectly()
         {
+            var input = new int[] { 4, 1, 2, 1, 2 };
+            var result = SingleNum(input);
+
+            result.Should().Be(4);
         }
     }
 }

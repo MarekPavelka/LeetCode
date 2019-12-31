@@ -21,7 +21,7 @@ namespace UnitMSTest
         {
             public ListNode DeleteDuplicates(ListNode head)
             {
-
+                return new ListNode(2);
             }
         }
 
