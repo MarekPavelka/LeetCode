@@ -21,6 +21,9 @@ namespace UnitMSTest
     [TestClass]
     public class AddBinary
     {
+        // The two input Strings, containing the binary representation of the two values:
+        // Use as radix 2 because it's binary
+
         public string AddBin(string a, string b)
         {
 
