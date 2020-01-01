@@ -75,12 +75,19 @@
     <Compile Include="LengthOfLastWord.cs" />
     <Compile Include="PlusOne.cs" />
     <Compile Include="69SqrtX.cs" />
-    <Compile Include="MergeSortedArray.cs" />
-    <Compile Include="RemoveDuplicatesFromSortedList.cs" />
+    <Compile Include="83RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="70ClimbingStairs.cs" />
     <Compile Include="PascalsTriangle.cs" />
     <Compile Include="136SingleNumber.cs" />
     <Compile Include="125ValidPalindrome.cs" />
+    <Compile Include="88MergeSortedArray.cs" />
+    <Compile Include="100SameTree.cs" />
+    <Compile Include="101SymmetricTree.cs" />
+    <Compile Include="104MaximumDepthOfBinaryTree.cs" />
+    <Compile Include="107BinaryTreeLevelOrderTraversal.cs" />
+    <Compile Include="108ConvertSortedArrayToBinarySearchTree.cs" />
+    <Compile Include="110BalancedBinaryTree.cs" />
+    <Compile Include="111MinimumDepthOfBinaryTree.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
