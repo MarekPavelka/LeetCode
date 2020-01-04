@@ -77,7 +77,6 @@
     <Compile Include="69SqrtX.cs" />
     <Compile Include="83RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="70ClimbingStairs.cs" />
-    <Compile Include="PascalsTriangle.cs" />
     <Compile Include="136SingleNumber.cs" />
     <Compile Include="125ValidPalindrome.cs" />
     <Compile Include="88MergeSortedArray.cs" />
@@ -88,6 +87,21 @@
     <Compile Include="108ConvertSortedArrayToBinarySearchTree.cs" />
     <Compile Include="110BalancedBinaryTree.cs" />
     <Compile Include="111MinimumDepthOfBinaryTree.cs" />
+    <Compile Include="112PathSum.cs" />
+    <Compile Include="118PascalsTriangle.cs" />
+    <Compile Include="119PascalsTriangle2.cs" />
+    <Compile Include="121BestTimeToBuyAndSellStock.cs" />
+    <Compile Include="122BestTimeToBuyAndSellStock.cs" />
+    <Compile Include="141LinkedListCycle.cs" />
+    <Compile Include="155MinStack.cs" />
+    <Compile Include="160InterSectionOfTwoLinkedLists.cs" />
+    <Compile Include="TwoSumII-InputArrayIsSorted.cs" />
+    <Compile Include="168ExcelSheetColumnTitle.cs" />
+    <Compile Include="169MajorityElement.cs" />
+    <Compile Include="171ExcelSheetColumnNumber.cs" />
+    <Compile Include="172FactorialTrailingZeroes.cs" />
+    <Compile Include="189RotateArray.cs" />
+    <Compile Include="198HouseRobber.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>

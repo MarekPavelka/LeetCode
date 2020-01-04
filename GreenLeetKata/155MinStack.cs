@@ -62,7 +62,7 @@ namespace UnitMSTest
 
             public int top()
             {
-                return stack.Peek();
+                return (int)stack.Peek();
             }
 
             public int getMin()
