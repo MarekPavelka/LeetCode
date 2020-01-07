@@ -104,6 +104,7 @@
     <Compile Include="198HouseRobber.cs" />
     <Compile Include="202HappyNumber.cs" />
     <Compile Include="204CountPrimes.cs" />
+    <Compile Include="205IsomorphicStrings.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
