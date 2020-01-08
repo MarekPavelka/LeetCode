@@ -105,6 +105,8 @@
     <Compile Include="202HappyNumber.cs" />
     <Compile Include="204CountPrimes.cs" />
     <Compile Include="205IsomorphicStrings.cs" />
+    <Compile Include="231PowerOfTwo.cs" />
+    <Compile Include="237DeleteNodeInALinkedList.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
