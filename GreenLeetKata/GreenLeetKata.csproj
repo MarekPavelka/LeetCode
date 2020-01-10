@@ -108,6 +108,7 @@
     <Compile Include="231PowerOfTwo.cs" />
     <Compile Include="237DeleteNodeInALinkedList.cs" />
     <Compile Include="242ValidAnagram.cs" />
+    <Compile Include="257BinaryTreePaths.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
