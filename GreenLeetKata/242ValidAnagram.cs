@@ -1,4 +1,5 @@
 ﻿using System;
+using FluentAssertions.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitMSTest
@@ -27,15 +28,21 @@ namespace UnitMSTest
         public bool IsAnagram(string s, string t)
         {
                 var chars1 = s.ToCharArray();
-                var chars2 = s.ToCharArray();
+                var chars2 = t.ToCharArray();
                 Array.Sort(chars1);
                 Array.Sort(chars2);
-                return new string(chars1).Equals(new string(chars2);
+                return new string(chars1).Equals(new string(chars2));
         }
 
         [TestMethod]
         public void WorksCorrectly()
         {
+            var input1 = "a";
+            var input2 = "b";
+
+            var result1 = IsAnagram(input1, input2);
+
+            result1.IsSameOrEqualTo(false);
         }
     }
 }
