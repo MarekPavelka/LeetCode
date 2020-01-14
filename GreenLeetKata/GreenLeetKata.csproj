@@ -112,6 +112,7 @@
     <Compile Include="258AddDigits.cs" />
     <Compile Include="263UglyNumber.cs" />
     <Compile Include="268MissingNumber.cs" />
+    <Compile Include="278FirstBadVersion.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
