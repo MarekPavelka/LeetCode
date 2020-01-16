@@ -114,6 +114,7 @@
     <Compile Include="268MissingNumber.cs" />
     <Compile Include="278FirstBadVersion.cs" />
     <Compile Include="283MoveZeroes.cs" />
+    <Compile Include="290WordPattern.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
