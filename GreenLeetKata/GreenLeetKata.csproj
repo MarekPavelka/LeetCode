@@ -116,6 +116,7 @@
     <Compile Include="283MoveZeroes.cs" />
     <Compile Include="290WordPattern.cs" />
     <Compile Include="292NimGame.cs" />
+    <Compile Include="299BullsAndCows.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
