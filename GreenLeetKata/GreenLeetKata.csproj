@@ -118,6 +118,7 @@
     <Compile Include="292NimGame.cs" />
     <Compile Include="299BullsAndCows.cs" />
     <Compile Include="303RangeSumQuery.cs" />
+    <Compile Include="326PowerOfThree.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
